@@ -95,33 +95,32 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	/* [everforest palette](https://github.com/sainnhe/everforest/blob/master/palette.md) */
+	"#2D353B",
+	"#E67E80",
+	"#A7C080",
+	"#DBBC7F",
+	"#7FBBB3",
+	"#D699B6",
+	"#83C092",
+	"#D3C6AA",
+	"#9DA9A0",
 
-	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#E67E80",
+	"#A7C080",
+	"#DBBC7F",
+	"#7FBBB3",
+	"#D699B6",
+	"#83C092",
+	"#D3C6AA",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#9DA9A0",
+	"#7A8478",
+	"#D3C6AA", /* default foreground colour */
+	"#2D353B", /* default background colour */
 };
 
 
